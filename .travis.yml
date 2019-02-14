@@ -2,4 +2,4 @@ services:
   - docker
   
 script:
-  - docker run rcourt/kb_checks
+  - travis_wait 90 docker run rcourt/kb_checks
