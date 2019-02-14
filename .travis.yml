@@ -2,4 +2,4 @@ services:
   - docker
   
 script:
-  - travis_wait 90 docker run rcourt/kb_checks
+  - docker build -t test-image:test .
