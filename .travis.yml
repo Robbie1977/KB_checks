@@ -1,0 +1,5 @@
+services:
+  - docker
+  
+script:
+  - docker run rcourt/loadedubuntu python checkImageFiles.py
